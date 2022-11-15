@@ -27,4 +27,4 @@ jobs:
            ref: ${{ env.tag_name }}
        
       - name: Publish action 
-        uses: actions-on-packages/package-action@0.4.1
+        uses: actions-on-packages/package-action@0.5.0
