@@ -1,12 +1,12 @@
 name: 'publish-action'
-on: # rebuild any PRs and main branch changes
+on:
   release:
     types: [created]
   repository_dispatch:
     types: [actions-package-migrate]
 
 jobs:
-  package-and-publish: # make sure the action works on a clean machine without building
+  package-and-publish:
     runs-on: ubuntu-latest    
     steps:
       - name: Release event
