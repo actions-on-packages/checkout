@@ -2,6 +2,8 @@
 
 # Checkout V3
 
+Caution: This is test version!
+
 This action checks-out your repository under `$GITHUB_WORKSPACE`, so your workflow can access it.
 
 Only a single commit is fetched by default, for the ref/SHA that triggered the workflow. Set `fetch-depth: 0` to fetch all history for all branches and tags. Refer [here](https://help.github.com/en/articles/events-that-trigger-workflows) to learn which commit `$GITHUB_SHA` points to for different events.
